@@ -1,9 +1,11 @@
 {
 	"name": "gckn-theme",
-	"displayName": "gckn-theme",
+	"displayName": "getCodingKnowledge Theme",
 	"description": "placeholder",
 	"publisher": "aolland",
 	"version": "0.1.0",
+	"icon": "images/icon.png",
+	"license": "MIT",
 	"repository": {
 		"url": "https://github.com/aolland/gckn-theme",
 		"type": "git"
