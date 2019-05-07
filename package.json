@@ -1,21 +1,26 @@
 {
-    "name": "gckn-theme",
-    "displayName": "gckn-theme",
-    "description": "placeholder",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.33.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "gckn-dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/gckn-dark-color-theme.json"
-            }
-        ]
-    }
+	"name": "gckn-theme",
+	"displayName": "gckn-theme",
+	"description": "placeholder",
+	"publisher": "aolland",
+	"version": "0.1.0",
+	"repository": {
+		"url": "https://github.com/aolland/gckn-theme",
+		"type": "git"
+	},
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "gckn-dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/gckn-dark-color-theme.json"
+			}
+		]
+	}
 }
