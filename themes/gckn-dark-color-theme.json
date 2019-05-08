@@ -9,13 +9,14 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Const",
+			"name": "Opérateurs + mots clés",
 			"scope": [
 				"storage.type.js",
 				"keyword.operator.assignment.js",
 				"punctuation.separator.key-value.js",
 				"keyword.operator.ternary.js",
 				"storage.type.function.arrow.js",
+				"storage.type.js",
 				"keyword.operator.new.js",
 				"punctuation.definition.template-expression.begin.js",
 				"punctuation.definition.template-expression.end.js",
@@ -29,6 +30,7 @@
 				"keyword.operator.assignment.compound.js",
 				"variable.language.this.js",
 				"keyword.operator.logical.js",
+				"support.type.object.module.js",
 				"keyword.operator.relational.js"
 			],
 			"settings": {
@@ -36,7 +38,7 @@
 			}
 		},
 		{
-			"name": "Keywords variables",
+			"name": "Types",
 			"scope": [
 				"constant.language.boolean.false.js",
 				"constant.language.null.js",
@@ -54,13 +56,13 @@
 			}
 		},
 		{
-			"name": "Fonctions",
+			"name": "Fonctions + classes",
 			"scope": [
 				"entity.name.function.js",
+				"variable.language.super.js",
 				"variable.parameter.js",
 				"entity.name.type.js",
 				"entity.name.type.class.js",
-				"support.type.object.module.js"
 			],
 			"settings": {
 				"foreground": "#8777d3"
@@ -78,7 +80,7 @@
 			}
 		},
 		{
-			"name": "Variables",
+			"name": "Initialisation variables",
 			"scope": [
 				"variable.other.constant.js",
 				"variable.parameter.js"
@@ -89,7 +91,7 @@
 			}
 		},
 		{
-			"name": "Variables used",
+			"name": "Utilisation des variables",
 			"scope": [
 				"variable.other.object.js",
 				"variable.other.readwrite.js",
