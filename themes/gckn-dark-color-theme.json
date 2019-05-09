@@ -158,7 +158,6 @@
 		"gitDecoration.deletedResourceForeground": "#d96c75b3",
 		"gitDecoration.untrackedResourceForeground": "#91b362b3",
 		"gitDecoration.ignoredResourceForeground": "#242831",
-		"gitDecoration.conflictingResourceForeground": "",
 		"gitDecoration.submoduleResourceForeground": "#ffee99b3",
 		"settings.headerForeground": "#b3b1ad",
 		"settings.modifiedItemIndicator": "#6994bf",
@@ -270,7 +269,10 @@
 				"punctuation.definition.heading.markdown",
 				"punctuation.definition.list.begin.markdown",
 				"punctuation.definition.quote.begin.markdown",
-				"punctuation.definition.markdown"
+				"punctuation.definition.markdown",
+				"punctuation.definition.string.begin.markdown",
+				"string.other.link.description.markdown",
+				"markup.underline.link.image.markdown"
 			],
 			"settings": {
 				"foreground": "#df6470"
@@ -291,6 +293,7 @@
 			"name": "Fonctions + classes Markdown",
 			"scope": [
 				"markup.bold.markdown",
+				"markup.inline.raw.string.markdown",
 				"markup.italic.markdown"
 			],
 			"settings": {

@@ -1,9 +1,25 @@
-# Change Log
+# CHANGELOG
 
-All notable changes to the "gckn-theme" extension will be documented in this file.
+## 0.4.0
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Added README file + changelog
 
-## [Unreleased]
+## 0.3.0
 
-- Initial release
+- Editor changes
+
+## 0.2.0
+
+- Première release:
+  - Javascript
+  - Markdown
+  - GitIgnore
+
+## 0.1.1
+
+- Fixed some typos
+
+## 0.1.0
+
+- Première release:
+  - JS support only
