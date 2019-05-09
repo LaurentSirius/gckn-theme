@@ -3,76 +3,77 @@
 	"type": "dark",
 	"colors": {
 		"editor.background": "#181a1b",
-		"editor.foreground": "#cdcac2",
+		"editor.foreground": "#CDCAC2",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
 	"tokenColors": [
 		{
-			"name": "Opérateurs + mots clés",
+			"name": "Opérateurs + mots clés JavaScript",
 			"scope": [
 				"storage.type.js",
-				"keyword.operator.assignment.js",
-				"punctuation.separator.key-value.js",
-				"keyword.operator.ternary.js",
-				"storage.type.function.arrow.js",
-				"storage.type.js",
-				"keyword.operator.new.js",
-				"punctuation.definition.template-expression.begin.js",
-				"punctuation.definition.template-expression.end.js",
-				"storage.modifier.async.js",
-				"keyword.control.trycatch.js",
-				"keyword.control.conditional.js",
 				"storage.type.class.js",
 				"storage.modifier.js",
+				"punctuation.separator.key-value.js",
+				"keyword.operator.assignment.js",
+				"storage.type.function.arrow.js",
+				"keyword.operator.logical.js",
 				"keyword.control.flow.js",
 				"keyword.operator.comparison.js",
+				"keyword.operator.spread.js",
+				"storage.modifier.async.js",
 				"keyword.operator.assignment.compound.js",
-				"variable.language.this.js",
-				"keyword.operator.logical.js",
-				"support.type.object.module.js",
-				"keyword.operator.relational.js"
+				"keyword.operator.arithmetic.js",
+				"keyword.control.conditional.js",
+				"keyword.operator.relational.js",
+				"keyword.control.trycatch.js",
+				"keyword.operator.rest.js",
+				"keyword.operator.new.js"
 			],
 			"settings": {
 				"foreground": "#df6470"
 			}
 		},
 		{
-			"name": "Types",
+			"name": "Types + support fonction/class JavaScript",
 			"scope": [
-				"constant.language.boolean.false.js",
+				"variable.other.constant.js",
+				"support.function.js",
+				"support.type.object.module.js",
+				"support.class.promise.js",
+				"variable.other.property.js",
+				"support.function.console.js",
+				"support.variable.object.process.js",
+				"variable.language.super.js",
+				"constant.language.boolean.true.js",
+				"variable.language.this.js",
+				"variable.other.constant.property.js",
+				"constant.numeric.decimal.js",
 				"constant.language.null.js",
-				"constant.language.undefined.js",
-				"constant.numeric.decimal.js",
-				"constant.numeric.decimal.js",
-				"punctuation.definition.string.begin.js",
-				"punctuation.definition.string.end.js",
-				"punctuation.definition.string.template.begin.js",
-				"punctuation.definition.string.template.end.js"
+				"support.class.builtin.js"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#ff9a56"
+				"foreground": "#4eaaff"
 			}
 		},
 		{
-			"name": "Fonctions + classes",
+			"name": "Fonctions + classes JavaScript",
 			"scope": [
 				"entity.name.function.js",
-				"variable.language.super.js",
-				"variable.parameter.js",
-				"entity.name.type.js",
+				"entity.name.type.module.js",
 				"entity.name.type.class.js",
+				"entity.other.inherited-class.js",
+				"entity.name.type.js",
+				"support.class.console.js"
 			],
 			"settings": {
-				"foreground": "#8777d3"
+				"foreground": "#9878d3"
 			}
 		},
 		{
-			"name": "Commentaires",
+			"name": "Commentaires JavaScript",
 			"scope": [
-				"comment.line.double-slash.js",
-				"comment.block.js"
+				"comment.line.double-slash.js"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -80,27 +81,75 @@
 			}
 		},
 		{
-			"name": "Initialisation variables",
+			"name": "Commentaires GitIgnore",
 			"scope": [
-				"variable.other.constant.js",
-				"variable.parameter.js"
+				"comment.line.number-sign.ignore"
 			],
 			"settings": {
-				"fontStyle": "italic bold underline",
-				"foreground": "#ebe8e0"
+				"fontStyle": "italic",
+				"foreground": "#5a5a5a"
 			}
 		},
 		{
-			"name": "Utilisation des variables",
+			"name": "Ponctuation Markdown",
 			"scope": [
-				"variable.other.object.js",
-				"variable.other.readwrite.js",
-				"entity.other.inherited-class.js"
+				"punctuation.definition.heading.markdown",
+				"punctuation.definition.list.begin.markdown",
+				"punctuation.definition.quote.begin.markdown",
+				"punctuation.definition.markdown"
 			],
 			"settings": {
-				"fontStyle": "italic bold",
-				"foreground": "#ebe8e0"
+				"foreground": "#df6470"
 			}
-		}
+		},
+		{
+			"name": "Titre + liens Markdown",
+			"scope": [
+				"entity.name.section.markdown",
+				"string.other.link.title.markdown",
+				"markup.underline.link.markdown"
+			],
+			"settings": {
+				"foreground": "#4eaaff"
+			}
+		},
+		{
+			"name": "Fonctions + classes Markdown",
+			"scope": [
+				"markup.bold.markdown",
+				"markup.italic.markdown"
+			],
+			"settings": {
+				"foreground": "#9878d3"
+			}
+		},
+		{
+			"name": "Commentaires Markdown",
+			"scope": [
+				"comment.block.html"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#5a5a5a"
+			}
+		},
+		{
+			"name": "Strings JSON",
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#9878d3"
+			}
+		},
+		{
+			"name": "Ponctuation JSON",
+			"scope": [
+				"punctuation.separator.dictionary.key-value.json"
+			],
+			"settings": {
+				"foreground": "#df6470"
+			}
+		},
 	]
 }
