@@ -4,7 +4,7 @@ Le thème que j'utilise [dans mes vidéos](https://www.youtube.com/c/getcodingkn
 
 [GitHub repository](https://github.com/Binaryify/OneDark-Pro)
 
-> Vous pouvez retrouvez l'extension directement sur GitHub: [lien](https://github.com/aolland/gckn-theme)
+> Vous pouvez retrouvez l'extension directement sur GitHub: [lien](https://github.com/aolland/gckn-theme)\n
 > Ou bien sur le marché de VS Code: [lien](https://marketplace.visualstudio.com/items?itemName=aolland.gckn-theme)
 
 ![screenshot](./images/js.png)
