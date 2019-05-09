@@ -1,5 +1,3 @@
-![discord](https://img.shields.io/discord/308525401079021569.svg) ![release](https://img.shields.io/github/release/aolland/gckn-theme.svg) ![lastcommit](https://img.shields.io/github/last-commit/aolland/gckn-theme.svg)
-
 # [getCodingKnowledge Theme](https://marketplace.visualstudio.com/items?itemName=aolland.gckn-theme)
 
 Le thème que j'utilise [dans mes vidéos](https://www.youtube.com/c/getcodingknowledge) depuis le 09/05/2019.
