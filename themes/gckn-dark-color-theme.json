@@ -185,7 +185,7 @@
     {
       "settings": {
         "background": "#0d1016",
-        "foreground": "#b2afa9",
+        "foreground": "#c7c5c2",
         "selectionBorder": "#969591",
         "findHighlight": "#c28bff",
         "findHighlightForeground": "#0d1016",
@@ -200,6 +200,7 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
+        "fontStyle": "italic bold",
         "foreground": "#5f6060"
       }
     },
@@ -207,7 +208,7 @@
       "name": "Constant",
       "scope": "constant",
       "settings": {
-        "foreground": "#f86565"
+        "foreground": "#ffac4d"
       }
     },
     {
@@ -221,21 +222,21 @@
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#f86565",
         "foreground": "#282b2f"
       }
     },
     {
       "name": "Keyword",
-      "scope": "keyword",
+      "scope": ["keyword", "punctuation.separator.key-value.js"],
       "settings": {
         "foreground": "#f86565"
       }
     },
     {
       "name": "Storage",
-      "scope": "storage",
+      "scope": ["storage", "keyword.control.flow.js"],
       "settings": {
+        "fontStyle": "italic bold underline",
         "foreground": "#f86565"
       }
     },
@@ -243,7 +244,8 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#cdcac2"
+        "fontStyle": "italic",
+        "foreground": "#c0bfbc"
       }
     },
     {
@@ -257,7 +259,7 @@
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#cdcac2"
+        "foreground": "#c7c5c2"
       }
     },
     {
@@ -271,14 +273,14 @@
       "name": "Markup Deleted",
       "scope": "markup.deleted",
       "settings": {
-        "foreground": "#f86565"
+        "foreground": "#ffa93a"
       }
     },
     {
       "name": "Markup Inserted",
       "scope": "markup.inserted",
       "settings": {
-        "foreground": "#cdcac2"
+        "foreground": "#c7c5c2"
       }
     },
     {
@@ -306,7 +308,7 @@
       "name": "Markup List",
       "scope": "markup.list",
       "settings": {
-        "foreground": "#cdcac2"
+        "foreground": "#c7c5c2"
       }
     },
     {
