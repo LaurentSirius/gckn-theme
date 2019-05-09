@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 0.5.1 (release)
+
+- Typos in readme
+
+## 0.5.0
+
+- Support for all languages
+
 ## 0.4.0
 
 - Added README file + changelog
