@@ -1,4 +1,4 @@
-![release](https://img.shields.io/github/release/aolland/gckn-theme.svg) ![lastcommit](https://img.shields.io/github/last-commit/aolland/gckn-theme.svg)
+![discord](https://img.shields.io/discord/308525401079021569.svg) ![release](https://img.shields.io/github/release/aolland/gckn-theme.svg) ![lastcommit](https://img.shields.io/github/last-commit/aolland/gckn-theme.svg)
 
 # [getCodingKnowledge Theme](https://marketplace.visualstudio.com/items?itemName=aolland.gckn-theme)
 
