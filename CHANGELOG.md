@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 0.6.0
+
+- Modification on the README
+- Added a screenshot to showcase the theme
+- Some modification on the Javascript language
+
 ## 0.5.1 (release)
 
 - Typos in readme

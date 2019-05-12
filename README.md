@@ -2,11 +2,19 @@
 
 Le thème que j'utilise [dans mes vidéos](https://www.youtube.com/c/getcodingknowledge) depuis le 09/05/2019.
 
-[GitHub repository](https://github.com/Binaryify/OneDark-Pro)
+[GitHub repository](https://github.com/aolland/gckn-theme)
 
 > Vous pouvez retrouvez l'extension directement sur GitHub ou le marché de VS Code: [GitHub](https://github.com/aolland/gckn-theme) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=aolland.gckn-theme)
 
+## Editor
+
 ![screenshot](./images/js.png)
+
+![screenshot](./images/json.png)
+
+## Terminal
+
+![screenshot](./images/terminal.png)
 
 # CHANGELOG
 
@@ -14,16 +22,4 @@ Le thème que j'utilise [dans mes vidéos](https://www.youtube.com/c/getcodingkn
 
 # Langages
 
-SS pour tous les langages disponibles. A ce jour, uniquement le Javascript, le JSON et le Markdown sont disponibles.
-
-## Javascript
-
-![javascript](./images/js.png)
-
-## JSON
-
-![json](./images/json.png)
-
-## Markdown
-
-![markdown](./images/markdown.png)
+Logiquement, tous les langages sont supportés. Merci de me le signaler si vous trouvez un langage non supporté.
