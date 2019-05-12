@@ -2,8 +2,6 @@
 
 Le thème que j'utilise [dans mes vidéos](https://www.youtube.com/c/getcodingknowledge) depuis le 09/05/2019.
 
-[GitHub repository](https://github.com/aolland/gckn-theme)
-
 > Vous pouvez retrouvez l'extension directement sur GitHub ou le marché de VS Code: [GitHub](https://github.com/aolland/gckn-theme) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=aolland.gckn-theme)
 
 ## Editor
