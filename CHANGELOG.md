@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 0.6.2 
+
+- Adding a few keyword to the theme
+
+## 0.6.1
+
+- Adding a few keyword to the theme
+
 ## 0.6.0
 
 - Modification on the README
