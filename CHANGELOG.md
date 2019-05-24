@@ -1,6 +1,10 @@
 # CHANGELOG
 
-## 0.6.2 
+## 0.6.3
+
+- Adding syntax support for this in TypeScript
+
+## 0.6.2
 
 - Adding a few keyword to the theme
 

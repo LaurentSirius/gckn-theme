@@ -234,7 +234,12 @@
     },
     {
       "name": "Storage",
-      "scope": ["storage", "keyword.control.flow.js", "variable.language.this.js"],
+      "scope": [
+        "storage",
+        "keyword.control.flow.js",
+        "variable.language.this.js",
+        "variable.language.this.ts"
+      ],
       "settings": {
         "fontStyle": "italic bold underline",
         "foreground": "#f86565"
