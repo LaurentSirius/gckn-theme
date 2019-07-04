@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.7.0
+
+- Some lua support
+
 ## 0.6.3
 
 - Adding syntax support for this in TypeScript

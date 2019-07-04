@@ -227,7 +227,11 @@
     },
     {
       "name": "Keyword",
-      "scope": ["keyword", "punctuation.separator.key-value.js"],
+      "scope": [
+        "keyword",
+        "punctuation.separator.key-value.js",
+        "storage.modifier.lua"
+      ],
       "settings": {
         "foreground": "#f86565"
       }
@@ -262,7 +266,7 @@
     },
     {
       "name": "Variable",
-      "scope": "variable",
+      "scope": ["variable, keyword.operator.lua"],
       "settings": {
         "foreground": "#c7c5c2"
       }
